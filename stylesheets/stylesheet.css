@@ -52,6 +52,19 @@ li {
 	list-style-type: square;
 }
 
+.menu {
+	text-decoration: none;
+	color : #242424;
+	margin-left: 10px;
+	background-color: #F4EBC3;
+}
+
+.menu.active {
+	color : #ffffff;
+	background-color: red;
+	font-weight: bold;
+}
+
 a:hover {
 	font-weight: bold;
 }
